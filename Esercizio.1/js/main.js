@@ -5,8 +5,7 @@ Chiedi all'utente la sua email,
 controlla che sia nella lista di chi può accedere,
 stampa un messaggio appropriato sull'esito del controllo.
 */
-
-//! RACCOLTA DATI
+//! PREPARAZIONE
 
 /**Lista delle email */
 const emailList = [
@@ -16,11 +15,13 @@ const emailList = [
   "liana25@gmail.com",
 ];
 
-/* Chiedo l'email all'utente */
-const userEmail = prompt("Inserisci la tua email");
-
 /* Verifica la validità dell'email nella lista */
 let isUserValid = false;
+
+//! RACCOLTA DATI
+
+/* Chiedo l'email all'utente */
+const userEmail = prompt("Inserisci la tua email");
 
 //!ELABORAZIONE
 

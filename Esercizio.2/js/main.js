@@ -8,10 +8,10 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 //! RACCOLTA DATI
 
 //* Genera un numero random per il giocato
-const playerRoll = Math.floor(Math.random() * 6) + 1;
+const playerRoll = Math.floor(Math.random() * 6 + 1);
 
 //* Genera un numero random per il computer
-const computerRoll = Math.floor(Math.random() * 6) + 1;
+const computerRoll = Math.floor(Math.random() * 6 + 1);
 
 //* Stampa il numero random del giocare
 console.log(`Giocatore ha tirato: ${playerRoll}`);
